@@ -1,0 +1,62 @@
+.container{
+    max-width: 1170px;
+}
+
+.col-md-12 {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.col-md-11 {
+    width: 91.66666667%;
+    padding: 0 15px;
+}
+
+.col-md-10 {
+    width: 83.33333333%;
+    padding: 0 15px;
+}
+
+.col-md-9 {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.col-md-8 {
+    width: 66.66666667%;
+    padding: 0 15px;
+}
+
+.col-md-7 {
+    width: 58.33333333%;
+    padding: 0 15px;
+}
+
+.col-md-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.col-md-5 {
+    width: 41.66666667%;
+    padding: 0 15px;
+}
+
+.col-md-4 {
+    width: 33.33333333%;
+}
+
+.col-md-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-md-2 {
+    width: 16.66666667%;
+    padding: 0 15px;
+}
+
+.col-md-1 {
+    width: 8.33333333%;
+    padding: 0 15px;
+}
