@@ -4,6 +4,7 @@
 
 .container {
     max-width: 1170px;
+    margin: 0 auto;
 }
 
 .col-md-12 {
@@ -48,6 +49,7 @@
 
 .col-md-4 {
     width: 33.33333333%;
+    padding: 0 15px;
 }
 
 .col-md-3 {
