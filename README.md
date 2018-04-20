@@ -1,4 +1,3 @@
-Internet-Store
-<hr>
+# Internet-Store
 
 This is a team project!
