@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;  
+  }
+  
+   header{
+      padding: 30px 0;
+  } 
+   header .navigation{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  header .notice{
+    display: flex;
+  justify-content: space-evenly;
+  }
+
+  .notice .button-not a{
+      margin: 10px;
+  }
+  .notice  a{
+  text-decoration: none;
+}
+  .notice .button-logout {
+    padding: 18px 30px;
+    font-size: 13px;
+    border-radius: 16px;
+    font-family: ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: #e74c3c;
+    margin: 14px;
+  }
+
+
+/* 
+   .container-1{
+      vertical-align: middle;
+      white-space: nowrap;
+      flex-wrap: wrap; 
+      position: relative;
+  }
+  
+  .container-1 input#search{
+      width: 600px;
+      height: 45px;
+      background: white;
+      border: 1px solid #e1e1e1 ;
+      border-radius: 2px;
+  }
+  
+  .container-1 .icon{
+      position: absolute;
+      margin-left: 95%;
+      margin-top: 15px;
+          
+  } 
+  .container-1 .icon .fa {
+      display: inline-block;
+      font-size: 22px;
+      color:#e1e1e1;
+      opacity: 1;
+  }
+  
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+      outline:none;
+   
+  }  */
+   section .menu{
+      padding: 15px 0;
+      
+  } 
+
+  .menu .nav {
+    margin: 0 auto;
+    background-color: #263238;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .menu .nav a{
+      font-size: 18px;
+      text-transform: uppercase;
+      text-shadow: none;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;  
+      padding: 20px;
+  }   
+
+   .menu .nav ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:center;
+  }  
+
+  .banner{
+      height:230px;
+      height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../img/banner_background_small.png);
+  }
+
+ 
+ .box .title {
+   text-align:  center;
+   margin-bottom: 30px;
+   color: azure;
+} 
+
+.box input#search{
+    width: 600px;
+    height: 45px;
+    background: white;
+    border: 1px solid #e1e1e1 ;
+    border-radius: 2px;
+}
+
+.box .icon{
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 15px;
+        
+} 
+.box .icon .fa {
+    display: inline-block;
+    font-size: 22px;
+    color:black;
+    opacity: 1;
+}
+
+.box input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+}
