@@ -1,0 +1,106 @@
+section.upload_products{
+    background: #f4f6f5;
+}
+.upload_products .container{
+    margin: 0 auto;
+    background: #ffffff;
+    
+}
+section.upload_products .breadcrumbs{
+    padding:47px 0px 40px 0px;
+    background: #f4f6f5;
+    font-size: 15px;
+}
+section.upload_products ul#breadcrumbs{
+    width: 100%;
+    display: flex;
+}
+section.upload_products #breadcrumbs li{
+    display: inline-flex;
+}
+section.upload_products #breadcrumbs a{
+    text-decoration: none;
+    color: #b0bec5;
+}
+section.upload_products #breadcrumbs a::after{
+    content: "-";
+    color:#8bc34a;
+    padding: 0px 8px;
+}
+section.upload_products #breadcrumbs .current,
+section.upload_products #breadcrumbs .current:hover{
+    font-weight: bold;
+    background: none;
+    color:#263238;
+}
+section.upload_products #breadcrumbs .current::after,
+section.upload_products #breadcrumbs .current::before{
+    content: normal;
+}
+section.upload_products .title-upload{
+padding: 20px 33px;
+border: 1px solid #dcdcdc;
+/* font family */
+font-size: 24px;
+margin-bottom: 45px;
+}
+section.upload_products fieldset{
+    padding-bottom: 67px;
+}
+section.upload_products .form_upload{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:33px;
+    padding-left:30px;
+}
+section.upload_products .col-md-2{
+    padding:15px;
+
+}
+section.upload_products sup{
+    color:#8bc34a;
+}
+select{
+    width:100%;
+    background: #f4f6f5;
+    padding: 13px 18px;
+    margin-bottom: 20px;
+    border: 0.5px solid #dcdcdc;
+}
+input{
+    width: 100%;
+    background: #f4f6f5;
+    padding: 13px 18px;
+    margin-bottom: 20px;
+    border: 0.5px solid #dcdcdc;
+}
+textarea{
+    width:100%;
+    background: #f4f6f5;
+    margin-bottom: 20px;
+    padding: 13px 18px;
+    border: 0.5px solid #dcdcdc;
+}
+section.upload_products .title-price{
+    padding: 20px 33px;
+    border-bottom: 1px solid #dcdcdc;
+    /* font family */
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+section.upload_products .form-price{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right:33px;
+    padding-left:30px;
+}
+section.upload_products button{
+    background: #8bc34a;
+    border:none;
+    padding:16px 40px 19px 36px;
+    margin-top: 22px;
+    color:#ffffff;
+    font-size: 15px;
+    left: 18%;
+    position: relative;
+}

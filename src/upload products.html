@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>upload products</title>
+        <link rel="stylesheet" href="./css/tools/reset.css">
+        <link rel="stylesheet" href="./css/grid/grid.css">
+        <link rel="stylesheet" href="./css//pages/upload products.css">
+    </head>
+    <body>
+        <main>
+            <section class="upload_products">
+                <div class="container">
+                    <div class="breadcrumbs">
+                       <ul id="breadcrumbs">
+                           <li>
+                               <a href="#">Home</a>
+                            </li>
+                           <li>
+                               <a href="#" class="current">Upload Product</a>
+                            </li>
+                       </ul>
+                    </div>
+                    <div class="title-upload">
+                        Upload Your item 
+                    </div>
+                    <fieldset>
+                        <form class="form_upload">  
+                            <div class="col-md-2">
+                                <label>
+                                Select Categories  <sup>*</sup>
+                                </label>  
+                            </div>
+                            <div class="col-md-10">
+                                <select name="Categories">
+                                    <option value="">Select</option>
+                                    <option value="">Select 1</option>
+                                    <option value="">Select 2</option>
+                                    <option value="">Select 3</option>
+                                    <option value="">Select 4</option>
+                                    <option value="">Select 5</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2" for="select1">
+                                <label for="product-name">Product Name <sup>*</sup></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="text" placeholder="Enter your product name here"  id="product-name">
+                            </div>
+                            <div class="col-md-2">
+                                   <label for="textarea">
+                                        Product Description <sup>*</sup>
+                                   </label>
+                            </div>
+                            <div class="col-md-10">
+                                    <textarea rows="10" cols="45" name="text" placeholder="<h1> Type your text  here </h1/>" id="textarea"></textarea>
+                            </div>
+                            <div class="col-md-2">
+                                    Upload Main File <sup>*</sup>
+                            </div>
+                            <div class="col-md-10">
+                                    <input type="file" multiple="multiple" value=" Send ">
+                            </div>
+                            <div class="col-md-2">
+                                    Upload Screenshots <sup>*</sup>
+                            </div>
+                            <div class="col-md-10">
+                                    <input type="file" multiple="multiple" placeholder="Enter your product name here">
+                            </div>
+                            <div class="col-md-2">
+                                    File Included <sup>*</sup>
+                            </div>
+                            <div class="col-md-10">
+                                    <select name="" id="">
+                                            <option value="">Select File Type </option>
+                                            <option value="">Select File Type </option>
+                                            <option value="">Select File Type </option>
+                                            <option value="">Select File Type </option>
+                                            <option value="">Select File Type </option>
+                                            <option value="">Select File Type </option>
+                                        </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="Dimensions">
+                                    File Dimensions <sup>*</sup>    
+                                </label> 
+                            </div>
+                            <div class="col-md-10">
+                                    <input type="text" placeholder="Enter the item  dimentionss here ..." id="Dimensions">
+                            </div>
+                            <div class="col-md-2">
+                                <label for="Tags">
+                                    Item Tags <sup>*</sup>
+                                </label>
+                            </div>
+                            <div class="col-md-10">
+                                    <input type="text" placeholder="Enter Tag Here" id="Tags">
+                            </div>
+                        </form>
+                        <div class="title-price">
+                            Set Your Price (US$)
+                        </div>
+                        <form action="" class="form-price">
+                            <div class="col-md-2" for="select1">
+                                <label for="Regular-License">Regular License <sup>*</sup></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="number" placeholder="$00.00"  id="Regular-License">
+                            </div>
+                            <div class="col-md-2" for="select1">
+                                <label for="Extended-License">Extended License<sup>*</sup></label>
+                            </div>
+                            <div class="col-md-10">
+                                <input type="number" placeholder="$00.00"  id="Extended-License">
+                            </div>
+                            <button type="submit" >
+                                Submit
+                            </button>
+                        </form>
+                    </fieldset>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
