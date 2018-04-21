@@ -1,0 +1,9 @@
+
+.profile_detail {
+    background-color: #f4f6f5;
+    display: flex;
+    justify-content: center;
+}
+.profile_details {
+    max-width: 1170px;
+}
