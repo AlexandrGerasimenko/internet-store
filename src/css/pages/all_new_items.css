@@ -1,0 +1,39 @@
+.all_new_item > section {
+    background-color: #f4f6f5;
+    height: 100vh;
+}
+
+.all_new_item .container h3 {
+    padding: 40px 0;
+    font-size: 15px;
+}
+
+.all_new_item .container h3 span {
+    color: #b0bec5;
+}
+
+.all_new_item .row {
+    display: flex;
+}
+
+.all_new_item .col-md-3, .product_details .col-md-9 {
+    padding: 0;
+}
+
+.all_new_item .categories, .all_new_item .price-range, .all_new_item .top_10_sellers {
+    background-color: white;
+    padding: 20px 30px;
+    border: 1px solid #d4d4d4;
+    margin-top: 30px;
+
+}
+.all_new_item .categories{
+    margin-top: 0;
+}
+
+.all_new_item h4 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 20px;
+    font-weight: bold;
+}

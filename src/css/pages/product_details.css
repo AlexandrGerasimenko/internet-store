@@ -1,7 +1,6 @@
 
 .product_details > section {
     background-color: #f4f6f5;
-
 }
 
 .product_details .container h3 {
@@ -272,7 +271,7 @@
 }
 
 .product_details .tabcontent {
-display: none;
+    display: none;
     padding: 6px 12px;
     color: #707070;
 
@@ -329,7 +328,7 @@ display: none;
 
 .product_details .product .col-md-4 .title_of_prod {
     background-color: white;
-    padding: 20px 20px 7px;
+    padding: 10px 24px 7px;
 }
 
 .product_details .product .col-md-4 .title_of_prod p + p {
