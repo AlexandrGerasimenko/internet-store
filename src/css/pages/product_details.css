@@ -6,6 +6,7 @@
 .product_details .container h3 {
     padding: 40px 0;
     font-size: 15px;
+    font-family: Roboto-regular;
 }
 
 .product_details .container h3 span {
@@ -33,11 +34,15 @@
 
 .product_details .text h2 {
     font-size: 30px;
+    font-family: Roboto-medium;
+    color: #414c51;
 }
 
 .product_details .text p {
     font-size: 16px;
     color: #707070;
+    font-family: Roboto-regular;
+    line-height: 1.5;
 }
 
 .product_details .col-md-3 {
@@ -66,13 +71,14 @@
     padding-bottom: 20px;
     border-bottom: 1px solid #d4d4d4;
     font-size: 20px;
-    font-weight: bold;
+    font-family: Roboto-bold;
 }
 
 .product_details .price span {
     color: #e74c3c;
     font-size: 22px;
     line-height: 30px;
+    font-family: Roboto-medium;
 }
 
 .product_details .product_price select {
@@ -80,10 +86,15 @@
     font-size: 13px;
     color: #70838d;
     outline: 0;
+    font-family: Roboto-regular;
 }
 
 .product_details .link {
     text-align: center;
+}
+
+.product_details .link i {
+    margin-right: 7px;
 }
 
 .product_details .product_price a {
@@ -94,6 +105,7 @@
     width: 100%;
     margin-top: 7px;
     box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-family: Roboto-medium;
 
 }
 
@@ -128,6 +140,7 @@
 .product_details .product_author .author_content p {
     margin-bottom: 22px;
     font-size: 18px;
+    font-family: Roboto-regular;
 }
 
 .product_details .product_author .author_content a {
@@ -136,6 +149,7 @@
     text-decoration: none;
     color: #7a7a7a;
     font-size: 13px;
+    font-family: Roboto-regular;
 
 }
 
@@ -143,13 +157,23 @@
     justify-content: space-between;
 }
 
+.product_details .basket i {
+    margin-right: 20px;
+    color: #a6b5bb;
+    font-size: 20px;
+}
+
 .product_details .basket span {
     font-size: 20px;
+    font-family: Roboto-bold;
+    margin-right: 20px;
+
 }
 
 .product_details .basket span + span {
     font-size: 16px;
     color: #838383;
+    font-family: Roboto-light;
 }
 
 .product_details .container h2 {
@@ -160,6 +184,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .product_details .gt_link {
@@ -170,6 +195,7 @@
     text-decoration: none;
     color: white;
     padding: 15px 25px;
+    font-family: Roboto-medium;
 }
 
 .product_details .gt_link .live_preview {
@@ -198,6 +224,10 @@
 
 }
 
+.product_details .social li a {
+    color: white;
+}
+
 .product_details .social .fb {
     background-color: #6370b6;
 }
@@ -221,10 +251,14 @@
 
 .product_details .product_info p {
     line-height: 2.5;
+    font-family: Roboto-medium;
+    font-size: 14px;
 }
 
 .product_details .product_info p span {
     color: #70838d;
+    font-family: Roboto-regular;
+    font-size: 14px;
 }
 
 .product_details .gt_link li:not(:first-child) {
@@ -263,18 +297,23 @@
     padding: 20px 40px;
     font-size: 16px;
     color: #78909c;
+    font-family: Roboto-regular;
 }
 
 .product_details .tab button.active {
     border-bottom: 3px solid #8bc34a;
     color: black;
+    font-family: Roboto-medium;
 }
 
 .product_details .tabcontent {
     display: none;
     padding: 6px 12px;
     color: #707070;
+}
 
+.product_details .active_tab {
+    display: block;
 }
 
 .product_details .tabcontent .tabcontent-text {
@@ -289,6 +328,12 @@
 
 .product_details .tabcontent .tabcontent-text div p {
     line-height: 2.5;
+    font-family: Roboto-regular;
+}
+
+.product_details .tabcontent .tabcontent-text div p i {
+    margin-right: 10px;
+    color: #8bc34a;
 }
 
 .product_details .more_prod {
@@ -296,11 +341,12 @@
     padding: 20px 25px;
     background-color: white;
     border: 1px solid #d4d4d4;
+
 }
 
-.product_details .more_prod P {
+.product_details .more_prod p {
     font-size: 18px;
-    font-weight: bolder;
+    font-family: Roboto-medium;
 }
 
 .product_details .product {
@@ -329,15 +375,19 @@
 .product_details .product .col-md-4 .title_of_prod {
     background-color: white;
     padding: 10px 24px 7px;
+    font-family: Roboto-medium;
+    font-size: 14px;
 }
 
 .product_details .product .col-md-4 .title_of_prod p + p {
     font-size: 12px;
     color: #8bc34a;
     padding: 10px 0;
+    font-family: Roboto-regular;
 }
 
 .product_details .product .col-md-4 .title_of_prod span {
     font-size: 18px;
     font-weight: bolder;
+    font-family: Roboto-bold;
 }
