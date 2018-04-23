@@ -1,0 +1,325 @@
+
+.section-1 {
+    padding: 122px 0px;  
+     margin: 0 auto;
+     background-color: #f4f6f5;
+}
+.triangle:after{
+    content: '';
+    border: 20px solid transparent;
+    border-left: 20px solid#9ac16d;
+    border-top: 20px solid#9ac16d; 
+    position: absolute;
+    z-index: 1;
+}
+.fa-bolt {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    margin-left: 8px;
+    margin-top: 3px;
+    color: white;
+    
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title h1 {
+    font-size: 32px;
+    font-family: "roboto-bold";
+}
+.tab ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px;
+    width: 600px;
+    margin: 0 auto;
+}
+ .tab a {
+    border: 1px solid #ffffff;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    color: black;  
+    font-family: 'roboto-medium';
+    font-size: 14px;
+}
+
+
+.tab li a:hover {
+    background-color: red;
+    color:white;
+}
+hr {
+    width: 100%;
+    color: #dadee2;
+}
+.section-1 .product {
+background-color: white;
+border: 1px solid  #dadee2;
+}
+.prouducts {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-md-3 >img {
+    width: 100%;
+}
+.images  img {
+    width: 100%;
+}
+.section-1 .all-buttom .tab {
+    width: 355px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.section-1 .text {
+    padding: 20px 15px;
+}
+.section-1 h4 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "roboto-blod";
+    font-size: 20px;
+}
+.section-1  span {
+    font-size: 14px;
+    font-family: 'roboto-medium';
+    color: #8bc34a;
+}
+.section-1 .auther {
+    display: flex;
+    align-items: center;
+    padding: 0 15px 20px;
+}
+.section-1 .auther h5 {
+    margin-left: 15px;
+    font-size: 14px;
+}
+.section-1 .col-md-3 {
+    padding: 20px 15px;
+   
+}
+.section-1  .tab .all-buttom a {
+    font-size: 16px;
+}
+ .rating {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: unset;
+    width: 100%;
+    align-items: center; 
+
+}
+.section-1 .rating span {
+    color: black;
+}
+.section-2 .rating span {
+    color: black;
+}
+.section-2  span {
+    font-size: 14px;
+    font-family: 'roboto-medium';
+    color: #8bc34a;
+}
+.section-2 {
+    padding: 130px 0px;
+    margin: 0 auto;
+     background-color: #ffffff;
+}
+.section-2 .title h2 {
+    font-size: 36px;
+}
+.section-2 .product {
+    background-color: white;
+    border: 1px solid  #dadee2;
+    }
+    .col-md-3 >img {
+        width: 100%;
+    }
+    .images  img {
+        width: 100%;
+    }
+    .section-2 .text {
+        padding: 20px 15px;
+    }
+    .section-2 h4 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .section-2 span {
+        font-size: 14px;
+    }
+    .section-2 .auther {
+        display: flex;
+        align-items: center;
+        padding: 0 15px 20px;
+    }
+    .section-2 .auther h5 {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    .section-2 .col-md-3 {
+        padding: 20px 15px;
+    }
+    .section-2 .nagative {
+        padding: 50px 0;
+    }
+
+    .section-2 .nagative ul {
+        display: flex;
+        justify-content: space-between;
+        width: 110px;
+         margin: 0 auto;
+    }
+    .nagative .active  {
+        background-color:#9ac16d;
+    }
+    .nagative li {
+        width: 20px;
+        height: 20px;
+        background-color:#dbdbdb;
+        border-radius: 50%
+    }
+    .section-2 .nagative .active li {
+        background-color: #8bc34a;
+    }
+    .section-2 .nagative li {
+        font-size: 50px;
+    }
+    .container {
+        margin: 0 auto;
+    }
+    .section-2 .auther h5 {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+    .section-3 {
+        padding: 120px 0;
+        background-color: #263238;
+    }
+    
+    .section-3  h2 {
+        font-size: 36px;
+        color: white;
+    }
+    .section-3 .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+    }
+    .section-3 .product {
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section-3 img {
+        width: 33%;
+    }
+    .section-3 .prouducts {
+        padding: 90px 0;
+    }
+    .section-3 p {
+        font-size: 15px;
+        font-family: "roboto-regular";
+        color: white;
+        line-height: 2;
+    }
+    .section-3 h2 {
+        font-size: 24px;
+    }
+    .section-3 h2:hover {
+        color: #9ac16d;
+    }
+
+    .section-4 {
+        padding: 130px 0;
+        background-color: #f4f6f5;
+        z-index: -2;
+    }
+    .section-4 .banner {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#8bc34a;
+    width: 643px;
+    height: 216px;
+    margin: 0 auto;
+    z-index: 1;
+    }
+    .section-4 .banner-1 {
+        width: 265px;
+    }
+    .section-4 a {
+     border: 1px ;
+    padding: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #f4f6f5;
+    color: black;  
+    font-family: 'roboto-medium';
+    font-size: 14px;
+    }
+    .section-4 p {
+        color:white;
+        font-size: 30px;
+    }
+    .checked {
+        color: yellow;
+    }
+    .section-4 img {
+        content: '';
+        position: absolute;
+        z-index: 0;
+    }
+    .section-4 .container {
+        display: flex;
+        align-items: center;
+        padding: 130px 0;
+
+    }
+    .section-5  h2 {
+      font-size: 34px;
+      font-family: "roboto-blod";
+    }
+    .section-5  h3 {
+        font-size: 24px;
+        color: black;
+        padding: 40px 0;
+        font-family: "roboto-blod";
+    }
+    .section-5 .title {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+    }
+    .section-5 .product {
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section-5 img {
+        width: 100%;
+
+    }
+    .section-5 .prouducts {
+        padding: 90px 0;
+    }
+    .section-5 p {
+        font-size: 15px;
+        font-family: "roboto-regular";
+        color: white;
+    }
+    .section-5 {
+        padding: 130px 0;
+    }
+
+    
