@@ -60,6 +60,15 @@
     background-color: white;
 }
 
+.all_new_item .circle_range {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #8bc34a;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
 .all_new_item .price-range .range_value {
     display: flex;
     justify-content: space-between;
