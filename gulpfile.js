@@ -14,7 +14,7 @@ var clean = require('gulp-clean');// очистка файлов или папо
 
 path = {
     src: {
-        html: "src/index.html",
+        html: "src/*.html",
         styles: ["src/css/tools/reset.css",
             "src/css/vendors/**/*.css",
             "src/css/*.css"
